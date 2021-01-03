@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/draw.io/static/css/main.f6aa6411.chunk.css",
-    "main.js": "/draw.io/static/js/main.d4737833.chunk.js",
-    "main.js.map": "/draw.io/static/js/main.d4737833.chunk.js.map",
+    "main.js": "/draw.io/static/js/main.dfbe44ef.chunk.js",
+    "main.js.map": "/draw.io/static/js/main.dfbe44ef.chunk.js.map",
     "runtime-main.js": "/draw.io/static/js/runtime-main.214ad3b5.js",
     "runtime-main.js.map": "/draw.io/static/js/runtime-main.214ad3b5.js.map",
-    "static/js/2.4f9cea1c.chunk.js": "/draw.io/static/js/2.4f9cea1c.chunk.js",
-    "static/js/2.4f9cea1c.chunk.js.map": "/draw.io/static/js/2.4f9cea1c.chunk.js.map",
+    "static/js/2.7200c349.chunk.js": "/draw.io/static/js/2.7200c349.chunk.js",
+    "static/js/2.7200c349.chunk.js.map": "/draw.io/static/js/2.7200c349.chunk.js.map",
     "static/js/3.0834dd37.chunk.js": "/draw.io/static/js/3.0834dd37.chunk.js",
     "static/js/3.0834dd37.chunk.js.map": "/draw.io/static/js/3.0834dd37.chunk.js.map",
     "index.html": "/draw.io/index.html",
     "static/css/main.f6aa6411.chunk.css.map": "/draw.io/static/css/main.f6aa6411.chunk.css.map",
-    "static/js/2.4f9cea1c.chunk.js.LICENSE.txt": "/draw.io/static/js/2.4f9cea1c.chunk.js.LICENSE.txt"
+    "static/js/2.7200c349.chunk.js.LICENSE.txt": "/draw.io/static/js/2.7200c349.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.214ad3b5.js",
-    "static/js/2.4f9cea1c.chunk.js",
+    "static/js/2.7200c349.chunk.js",
     "static/css/main.f6aa6411.chunk.css",
-    "static/js/main.d4737833.chunk.js"
+    "static/js/main.dfbe44ef.chunk.js"
   ]
 }
