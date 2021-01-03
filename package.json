@@ -1,6 +1,6 @@
 {
   "name": "frogsdraw",
-  "homepage": "https://dfrogs.github.io/draw.io/",
+  "homepage": "https://dfrogs.github.io/draw.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

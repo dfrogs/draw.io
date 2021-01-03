@@ -9,22 +9,22 @@ import { WelcomePage } from "../page/welcome/welcome";
 const AppRoute = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/draw.io/">
         <WelcomePage />
       </Route>
-      <Route exact path="/login">
+      <Route exact path="/draw.io/login">
         <LoginPage />
       </Route>
-      <Route exact path="/draw">
+      <Route exact path="/draw.io/draw">
         <DrawPage />
       </Route>
-      <Route exact path="/drawoptions">
+      <Route exact path="/draw.io/drawoptions">
         <DrawOptionsPage />
       </Route>
-      <Route exact path="/payment">
+      <Route exact path="/draw.io/payment">
         <PaymentPage />
       </Route>
-      <Route exact path="/profil">
+      <Route exact path="/draw.io/profil">
         <ProfilPage />
       </Route>
     </Switch>
