@@ -7,24 +7,24 @@ import { ProfilPage } from "../page/profil/profil";
 import { WelcomePage } from "../page/welcome/welcome";
 
 const AppRoute = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
-      <Route exact path="/draw.io/">
+      <Route exact path="/">
         <WelcomePage />
       </Route>
-      <Route exact path="/draw.io/login">
+      <Route exact path="/login">
         <LoginPage />
       </Route>
-      <Route exact path="/draw.io/draw">
+      <Route exact path="/draw">
         <DrawPage />
       </Route>
-      <Route exact path="/draw.io/drawoptions">
+      <Route exact path="/drawoptions">
         <DrawOptionsPage />
       </Route>
-      <Route exact path="/draw.io/payment">
+      <Route exact path="/payment">
         <PaymentPage />
       </Route>
-      <Route exact path="/draw.io/profil">
+      <Route exact path="/profil">
         <ProfilPage />
       </Route>
     </Switch>
