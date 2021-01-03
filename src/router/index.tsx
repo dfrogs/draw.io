@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { DrawOptionsPage } from "../page/draw-options/draw-options";
 import { DrawPage } from "../page/draw/draw";
 import { LoginPage } from "../page/login/login";
@@ -7,7 +7,7 @@ import { ProfilPage } from "../page/profil/profil";
 import { WelcomePage } from "../page/welcome/welcome";
 
 const AppRoute = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path="/">
         <WelcomePage />
@@ -28,7 +28,7 @@ const AppRoute = () => (
         <ProfilPage />
       </Route>
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default AppRoute;
